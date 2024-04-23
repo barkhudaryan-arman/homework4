@@ -6,9 +6,9 @@ public class Main {
 
         System.out.println("Задача номер 1");
         // Задача 1
-        int age = 15;
+        int age = 18;
         System.out.println("Если возраст человека равен " + age);
-        if (age > 18) {
+        if (age >= 18) {
             System.out.println("Он совершеннолетний");
         }else{
             System.out.println("он не достиг совершеннолетия, нужно немного подождать");
